@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Yaser raihami">
+  <meta name="language" content="english">
+  <meta name="description" content="Web design with Yaser">
+  <meta name="rating" content="safer for kids">
+
+  <title>Yaser Raihami</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+
+    }
+
+    main {
+      margin: 0% auto;
+
+    }
+
+    h1 {
+      font-family: cursive, impact, arial;
+    }
+
+    ul li {
+      display: inline-block;
+      list-style-type: circle;
+      margin: 0% 3%;
+    }
+
+    ol.li {
+      margin: 0% 3%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    ul {
+      border-bottom: 1px solid black;
+    }
+
+    @media (min-width: 769px) {
+      body {
+        font-size: 18px;
+        background-color: white;
+      }
+
+      h1 {
+        font-size: 150%;
+      }
+
+      main {
+        margin: 2% 5%;
+      }
+
+      section {
+        margin: 0% 5%;
+        padding: 2% 5%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <hr>
+    <h1>Yaser Raihami</h1>
+    <hr>
+    <nav>
+      <a href="#foods">One</a>
+      <a href="#achiv">Two</a>
+      <a href="#more">Three</a>
+      <a href="#about">About</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Favorite Food</h2>
+      <ol>
+        <li>Fruits
+          <ul class="flex-con">
+            <li>Pomegranates</li>
+            <li>Mango</li>
+            <li>Pineapple</li>
+            <li>Cherries</li>
+            <li>Strawberry</li>
+            <li>Graps</li>
+          </ul>
+        </li>
+
+        <li>Vegitables
+          <ul>
+            <li>Banana Pappers</li>
+            <li>Cabbage</li>
+            <li>Cucumbers</li>
+            <li>Potatios</li>
+            <li>Green Pappors</li>
+            <li>Garlic</li>
+            <li>Gingers</li>
+            <li>Mashrooms</li>
+            <li>Onines</li>
+            <li>Olives</li>
+            <li>Spinach</li>
+          </ul>
+        </li>
+
+        <li>Meats
+          <ul>
+            <li>Lamb</li>
+            <li>Fresh Fish</li>
+            <li>Camel</li>
+            <li>Beef</li>
+            <li>Goat</li>
+            <li>Chicken</li>
+          </ul>
+        </li>
+
+        <li>Dishes
+          <ul>
+            <li>Roasted Lamb</li>
+            <li>Peshaweri Beef pulao</li>
+            <li>Kabuli Pulao</li>
+            <li>Seek Kabab</li>
+            <li>Ckicken Masala</li>
+            <li>Fresh Indian fried Fish</li>
+            <li>Biryani</li>
+            <li>Afgani Pasta</li>
+            <li>Afgani Pasta</li>
+            <li>Afgani ash</li>
+            <li>Karhi</li>
+            <li>Fried Garlic Mushrooms</li>
+            <li>Halal Pizza</li>
+          </ul>
+        </li>
+        <li>Ice cream Cake</li>
+      </ol>
+    </section>
+
+    <section id="achiv">
+      <h2>Acheievements</h2>
+      <div>
+        <label for="course">Progress in this <strong>course &#10088;100&#37;&#10089;</strong></label>
+        <progress id="course" value="100" max="100">100%</progress><br>
+
+        <label for="Sp">Progress in the Specialization <em>Capstone</em> &#10088;20&#37;&#10089;</label>
+        <progress id="Sp" value="20" max="100">20%</progress><br>
+
+        <label for="life">Progress in life goal &#10088;10&#37;&#10089;</label>
+        <progress id="life" value="20" max="100">10%</progress>
+      </div>
+    </section>
+
+    <section id="more">
+      <h2>More About Me</h2>
+      <details>
+        <summary>My Childhood</summary>
+        <p>I was born in <a href="https://en.wikipedia.org/wiki/Peshawar" target="_blank">Peshawar</a>&#44; Pakistan. I
+          lived near the old <a href="https://en.wikipedia.org/wiki/Qissa_Khwani_Bazaar" target="_blank">Qissa Khwani
+            Bazaar</a>. I realy miss my favorite food of this place especially <a
+            href="https://www.youtube.com/watch?v=NQDom2gxiVc" target="_blank">Beef pulao</a>.</p>
+      </details>
+    </section>
+  </main>
+  <hr>
+  <footer id="about">
+    <p><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E">This page was created by
+      <span><strong>Yaser raihami
+          &#38; Colleen van Lent</strong></span>. To learn more about web design&#44; <a
+        href="http://www.intro-webdesign.com"><em>Intro web
+          Design.</em></a>
+    </p>
+    <hr>
+  </footer>
+
+</body>
+
+</html>
